@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+.container {
+    /*background-color: aqua;  */
+    margin: 4%;
+    }
+.card{
+width: 25%;
+border-radius: 10px;
+display: inline-block;
+margin: 2%;
+background-color: darkorange;
+padding: 10px;
+}
+.image img {
+width: 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px ;
+}
+.title {
+padding: 20px;
+text-align: center;
+}
+.datails {
+    padding: 20px;
+    text-align: center;
+}
+button{
+padding: 10px;
+margin: 5px;
+background-color: rgb(226, 212, 212);
+border: 1px solid forestgreen;
+border-radius: 3px;
+}

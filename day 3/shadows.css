@@ -1,0 +1,55 @@
+.container1{
+border: 3px solid red;
+padding: 10px;
+}
+.first{
+float: left;
+width: 200px;
+height: 200px;
+}
+.second{
+float: right;
+height: 200px;
+width: 200px;
+}
+p{
+clear: both;
+}
+.container2{
+    border: 3px solid red;
+    padding: 10px;
+    height: 300px;
+    }
+.one{
+border: 3px solid blue;
+display: inline-block;
+width: 200px;
+height: 200px;
+margin: 5px;
+}
+#two{
+position: absolute;
+top: 150px;
+left: 150px;
+}
+h1.page{
+text-shadow: 0px 0px 7px red;
+}
+.shadow2{
+box-shadow: 4px 5px 2px #ccc;
+height: 300px;
+width: 300px;
+borde;
+}
+div p.s3{
+background-color: aqua;
+}
+div.shadow2 h4{
+background-color: aqua;
+}
+div.s3>p{
+background-color: brown;
+}
+h1.s3 ~ p.s3{
+background-color: blueviolet;
+}

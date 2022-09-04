@@ -1,0 +1,32 @@
+.rectangle{
+    background-color: aqua;
+    text-align: center;
+    display: none;
+    padding: 5px;
+    border-radius: 20px;
+    }
+    @media (min-width:300px) and (max-width:400px)
+    /*300<x<400 */
+    {
+    #samsung{
+     background-color: brown;
+     display: block; 
+    }
+    }
+    @media (min-width:500px) and (max-width:700px)
+     /*500<x<700 */
+    {
+    #desktop{
+     background-color:magenta;
+     display: block; 
+    }
+    }
+    @media (min-width:800px) and (max-width:1000px)
+     /*600<x<800 */
+    {
+    #samsung{
+     background-color:olivedrab;
+     display: block; 
+    }
+    }
+    

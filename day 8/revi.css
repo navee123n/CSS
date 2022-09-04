@@ -1,0 +1,41 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.container{
+padding: 100px;
+}
+.card{
+display: flex;
+justify-content:space-around;
+background-color: aliceblue;
+padding: 15px;
+border-radius: 15px;
+width: 500px;
+}
+.title, .date{
+padding-top: 10px;
+}
+.title{
+font-weight: 500;
+}
+.card:hover{
+background-color: white;
+}
+.tick > .blue{
+display: none;
+}
+.card:hover .blue{
+    display:inline;
+    }
+.card:hover .gray{
+display: none;
+}
+.color-button{
+width: 60px;
+height: 30px;
+border-radius: 10px;
+background-color: red;
+border-radius: 20px;
+margin-top: 1px;
+}

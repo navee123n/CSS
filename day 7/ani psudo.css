@@ -1,0 +1,50 @@
+*{
+margin: 2px;
+padding: 3px;
+}
+/* p:nth-child(4)::first-letter{
+background-color: darkgoldenrod;
+}
+p::after{
+background-color:gold ;
+} */
+div{
+    width:200px;
+    height: 200px;
+    position:absolute;
+}
+   #rect1{
+    background-color: aqua;
+    top: 100px;
+    left: 50px;
+    }
+    #rect2{
+        background-color:darkolivegreen;
+        top: 150px;
+        left: 100px;
+        z-index: 1;
+        }
+    #rect3{
+    background-color:orangered;
+    top: 200px;
+    left: 150px;
+    } 
+    h1::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    }
+    h1:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    }
+    h1::before{
+    content:"";
+    background-color: rgb(17, 206, 206);
+    display: block;
+    transition: transform 0.5s ease-in;
+    top: 0px;
+    right:0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: ;
+}

@@ -1,0 +1,44 @@
+*{
+margin: 0;
+padding: 0;
+}
+.flex-container{
+background-color: beige;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+flex-direction: row;
+height: 800px;
+}
+.flex-container > div{
+width: 200px;
+background-color: aqua;
+font-size: 30px;
+margin: 10px;
+padding: 15px;
+}
+header nav{
+width: 100px;
+background-color: #fff;
+display: flex;
+padding: 16px 78px;
+align-items: center;
+box-shadow: 2px 2PX 2PX gainsboro;
+}
+.logo1{
+width: 130px;
+font-size: 32px;
+color: #0084ff;
+font-weight: 1000;
+}
+.logo2{
+   margin:0 ;
+   font: weight 500;
+   font-family: raleway, sans-serif;
+   font-style: italic;
+   padding: 10px;
+    }
+i{
+padding: 10px;
+}

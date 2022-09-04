@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+.first{
+    background-color: cyan;
+    font-size: large;
+    width: 200px; 
+    height: 200px;
+    margin: 100px;
+    border: 20px solid rgb(184, 214, 184);
+    padding: 30px;
+}
+.second{
+    background-color: darkkhaki;
+    font-size: large;
+    width: 200px; height: 200px;
+    margin: 100px;
+    border: 20px solid rgb(184, 214, 184);
+    padding: 10px;
+}

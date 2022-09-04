@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+.container{
+margin: 10px;
+}
+.first{
+    background-color: cyan;
+    font-size: large;
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+.second{
+    background-color: darkkhaki;
+    font-size: large;
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.spanone{
+background-color: aqua;
+display: inline;
+}
+.spantwo{
+background-color: rgb(207, 136, 42);
+display: flex;
+}
+.spanthree{
+background-color: rgb(94, 207, 113);
+display: list-item;
+}
+.para1{
+    background-color: aqua;
+    display: list-item;
+    }
+    .para2{
+    background-color: rgb(207, 136, 42);
+    display: list-item;
+    }
+    .para3{
+    background-color: rgb(94, 207, 113);
+    display: list-item;
+    }
+img{
+height: 300px;
+width: 300px;
+}
+.paraoverflow{
+height: 600px;
+width: 600px;
+
+
+}
+.Outerpara{
+height: 400px; ;
+width: 400px;
+border: 2px solid black;
+overflow: hidden;
+overflow: scroll;
+}

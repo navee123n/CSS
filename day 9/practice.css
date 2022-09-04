@@ -1,0 +1,36 @@
+*{
+margin:3px;
+padding: 3px;
+}
+header{
+background-color: greenyellow;
+}
+ul{
+display: flex;
+justify-content:center;
+list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+main{
+display: flex;
+}
+img{
+width: 800px;
+}
+.right{
+}
+.container{
+font-size: 10px;
+height: 50vh;
+background-color: skyblue;
+width: 50vw;
+
+}
+/* em- depends on the parent 
+   rem- depends on the root element */
+#p1{
+    font-size: 3rem;
+    padding: 3rem;
+}
